@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		390C00B02A1ED78F0016CBBE /* landmarks.gif in Resources */ = {isa = PBXBuildFile; fileRef = 390C00AF2A1ED78F0016CBBE /* landmarks.gif */; };
 		39E5D65A2A1E88810008A815 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E5D6592A1E88810008A815 /* LandmarksApp.swift */; };
 		39E5D65C2A1E88810008A815 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E5D65B2A1E88810008A815 /* ContentView.swift */; };
 		39E5D65E2A1E88820008A815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39E5D65D2A1E88820008A815 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		390C00AF2A1ED78F0016CBBE /* landmarks.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = landmarks.gif; sourceTree = "<group>"; };
 		39E5D6562A1E88810008A815 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E5D6592A1E88810008A815 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		39E5D65B2A1E88810008A815 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		390C00AE2A1ED74D0016CBBE /* ReadmeResources */ = {
+			isa = PBXGroup;
+			children = (
+				390C00AF2A1ED78F0016CBBE /* landmarks.gif */,
+			);
+			path = ReadmeResources;
+			sourceTree = "<group>";
+		};
 		39E5D64D2A1E88810008A815 = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +79,7 @@
 		39E5D6582A1E88810008A815 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				390C00AE2A1ED74D0016CBBE /* ReadmeResources */,
 				39E5D6592A1E88810008A815 /* LandmarksApp.swift */,
 				39E5D6762A1E9FC80008A815 /* Model */,
 				39E5D6752A1E9FAC0008A815 /* Views */,
@@ -194,6 +205,7 @@
 			files = (
 				39E5D6612A1E88820008A815 /* Preview Assets.xcassets in Resources */,
 				39E5D65E2A1E88820008A815 /* Assets.xcassets in Resources */,
+				390C00B02A1ED78F0016CBBE /* landmarks.gif in Resources */,
 				39E5D66E2A1E9E850008A815 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
